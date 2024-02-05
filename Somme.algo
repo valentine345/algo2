@@ -1,0 +1,11 @@
+ALGORITHM Somme
+VAR
+    T : ARRAY_OF INTEGER[]
+    Somme : INTEGER :=0;
+BEGIN
+    FOR i FROM 1 TO T.length STEP 1 DO
+    Somme := somme + T[i]
+    END_FOR 
+
+    Write("La somme est :", somme)
+END
